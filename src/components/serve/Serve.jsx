@@ -39,15 +39,15 @@ const Serve = () => {
             <h2 className='text-lg font-semibold text-primary'>WHAT THEY SAY</h2>
             <h1 className='text-lg sm:text-5xl leading-[1.25] text-para font-secondary font-black'>What Our Customers
             Say About Us</h1>
-            <p className='text-[14px] sm:text-xl text-[#333333] font-medium'>“Fudo is the best. Besides the many and delicious meals, the service is also very good, especially in the very  fast delivey. I highly recommend Fudo  to you”.</p>
+            <p className='text-[12px] sm:text-xl text-[#333333] font-medium'>“Fudo is the best. Besides the many and delicious meals, the service is also very good, especially in the very  fast delivey. I highly recommend Fudo  to you”.</p>
         </div>
         <div className='flex items-center space-x-2'>
             <div>
                 <img src={p1} alt="" />
             </div>
             <div>
-                <p className='text-[14px] sm:text-xl text-black font-medium'>Theresa Jordan</p>
-                <p className='text-[14px] text-[#828282]'>Food Enthusiast</p>
+                <p className='text-[12px] sm:text-xl text-black font-medium'>Theresa Jordan</p>
+                <p className='sm:text-[18px] text-[#828282] text-[12px]'>Food Enthusiast</p>
             </div>
            
         </div>
