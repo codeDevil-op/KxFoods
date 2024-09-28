@@ -35,7 +35,7 @@ const Serve = () => {
         </div>
         {/* right content  */}
         <div className='max-w-full lg:w-1/2 max-lg:mt-32 p-10'>
-        <div className='mb-10 space-y-3'>
+        <div className='mb-4 sm:mb-10 space-y-3 sm:space-y-6'>
             <h2 className='text-lg font-semibold text-primary'>WHAT THEY SAY</h2>
             <h1 className='text-lg sm:text-5xl leading-[1.25] text-para font-secondary font-black'>What Our Customers
             Say About Us</h1>
