@@ -8,7 +8,7 @@ import garlic from '../../assets/garlic.png'
 import card from '../../assets/card.png'
 import dot from '../../assets/dot.png'
 import cdot1 from '../../assets/c-dot1.png'
-import p2 from '../../assets/p2.png'
+import p1 from '../../assets/p1.png'
 import star from '../../assets/star.png'
 import star1 from '../../assets/star1.png'
 
@@ -35,15 +35,15 @@ const Serve = () => {
         </div>
         {/* right content  */}
         <div className='max-w-full lg:w-1/2 max-lg:mt-32 p-10'>
-        <div className='mb-14 space-y-3'>
+        <div className='mb-10 space-y-3'>
             <h2 className='text-lg font-semibold text-primary'>WHAT THEY SAY</h2>
-            <h1 className='text-xl sm:5xl leading-[1.25] text-para font-secondary font-black'>What Our Customers
+            <h1 className='text-lg sm:text-5xl leading-[1.25] text-para font-secondary font-black'>What Our Customers
             Say About Us</h1>
-            <p className='text-[15px] sm:xl text-[#333333] font-medium'>“Fudo is the best. Besides the many and delicious meals, the service is also very good, especially in the very  fast delivey. I highly recommend Fudo  to you”.</p>
+            <p className='text-[14px] sm:text-xl text-[#333333] font-medium'>“Fudo is the best. Besides the many and delicious meals, the service is also very good, especially in the very  fast delivey. I highly recommend Fudo  to you”.</p>
         </div>
         <div className='flex items-center space-x-2'>
             <div>
-                <img src={p2} alt="" />
+                <img src={p1} alt="" />
             </div>
             <div>
                 <p className='text-[14px] sm:text-xl text-black font-medium'>Theresa Jordan</p>
