@@ -22,7 +22,7 @@ const Discover = () => {
 
         <div className='flex flex-col lg:flex-row my-3'>
             <button className='bg-primary text-white justify-center flex items-center py-2 px-3 rounded-[20px] '>Order Your Food
-            <CiSearch size={20} className='ml-6 sm:ml-2 font-normal'/> 
+            <CiSearch size={20} className='ml-4 sm:ml-2 font-normal'/> 
             </button>
             <button className='bg-navBg text-black font-medium py-3 px-4 ml-3'><p className='border-b border-b-black'>How to Order</p></button>
         </div>
