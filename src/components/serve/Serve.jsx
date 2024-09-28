@@ -41,13 +41,13 @@ const Serve = () => {
             Say About Us</h1>
             <p className='text-[15px] sm:xl text-[#333333] font-medium'>“Fudo is the best. Besides the many and delicious meals, the service is also very good, especially in the very  fast delivey. I highly recommend Fudo  to you”.</p>
         </div>
-        <div className='flex items-center space-x-3'>
+        <div className='flex items-center space-x-2'>
             <div>
                 <img src={p2} alt="" />
             </div>
             <div>
-                <p className='text-[15px] sm:text-xl text-black font-medium'>Theresa Jordan</p>
-                <p className='text-[#828282] font-medium text-[15px]'>Food Enthusiast</p>
+                <p className='text-[14px] sm:text-xl text-black font-medium'>Theresa Jordan</p>
+                <p className='text-[14px] text-[#828282]'>Food Enthusiast</p>
             </div>
            
         </div>
