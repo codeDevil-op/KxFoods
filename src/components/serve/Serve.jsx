@@ -8,7 +8,7 @@ import garlic from '../../assets/garlic.png'
 import card from '../../assets/card.png'
 import dot from '../../assets/dot.png'
 import cdot1 from '../../assets/c-dot1.png'
-import p1 from '../../assets/p1.png'
+import p2 from '../../assets/p2.png'
 import star from '../../assets/star.png'
 import star1 from '../../assets/star1.png'
 
@@ -43,7 +43,7 @@ const Serve = () => {
         </div>
         <div className='flex items-center space-x-3'>
             <div>
-                <img src={p1} alt="" />
+                <img src={p2} alt="" />
             </div>
             <div>
                 <p className='text-[15px] sm:text-xl text-black font-medium'>Theresa Jordan</p>
