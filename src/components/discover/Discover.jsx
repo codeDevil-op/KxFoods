@@ -44,9 +44,9 @@ const Discover = () => {
         </div>
         {/* right side */}
         <div className='relative'>
-        <img src={times} alt="" className='absolute top-10'/>
+        <img src={times} alt="" className='absolute top-10 max-sm:-left-3 max-sm:top-3'/>
         <img src={fire} alt="" className='absolute top-14 right-14'/>
-        <img src={arrow} className='absolute -right-6 top-40' alt="" />
+        <img src={arrow} className='absolute -right-6 top-40 max-sm:-right-6 max-sm:top-20'/>
         <img src={heroImg} alt="" />
         <img src={dot} className='absolute -right-6 bottom-20' alt="" />
         <img src={dot} className='absolute bottom-0 left-8' alt="" />

@@ -33,7 +33,7 @@ const Services = () => {
       <img src={dot} alt="" />
       <div className='flex flex-col justify-center items-center'>
         <h2 className='text-lg text-primary font-semibold text-center'>WHAT WE SERVE</h2>
-        <h1 className='font-secondary text-5xl font-black text-para text-center my-6 sm:w-96'>Why You Should 
+        <h1 className='font-secondary text-3xl sm:text-5xl font-black text-para text-center my-6 sm:w-96'>Why You Should 
         Choose KX2</h1>
       </div>
       <img src={ydot} alt="" />
@@ -42,7 +42,7 @@ const Services = () => {
     {/* Service Content */}
     
     </div>
-    <div className='flex justify-center space-x-12 my-8 max-lg:flex-wrap relative'>
+    <div className='flex sm:justify-center md:space-x-12 my-8 max-lg:flex-wrap relative'>
     <img src={wiredUp} alt="" className='hidden lg:block absolute top-12 z-0' width={780}/>
 {serviceArr.map((service,index)=>{
   const {img,title,message} = service

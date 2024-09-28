@@ -44,7 +44,7 @@ const Menu = () => {
         <div className="p-14 flex justify-evenly max-lg:flex-col max-lg:items-center">
           {/* menu scrollbar  */}
           <div
-            className="border w-11/12 md:w-6/12 space-y-8 p-6 overflow-y-auto h-[400px] scrollbar "
+            className="border w-[350px] space-y-8 overflow-y-auto h-[400px] scrollbar p-2"
           >
             <div className="flex items-center space-x-4 p-3 ">
               <img src={veg} alt="" />
@@ -69,10 +69,10 @@ const Menu = () => {
           </div>
           {/* Items  */}
           
-          <div className=" max-w-full mt-10 p-5 mx-auto lg:w-7/12 ">
+          <div className="w-[350px] mt-10 p-5 lg:w-7/12 ">
           <Slider {...settings}>
             <div>
-            <img src={mango} className="max-sm:h-[250px] max-sm:w-[300px]" alt="" />
+            <img src={mango} className="max-sm:h-[250px] max-sm:w-[350px]" alt="" />
             </div>     
             <div>
             <img src={mango} alt="" className="max-sm:h-[250px] max-sm:w-[300px]" />
