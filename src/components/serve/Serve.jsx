@@ -27,14 +27,14 @@ const Serve = () => {
         <img src={onion} className='absolute top-16 left-8 max-sm:-left-2 max-sm:top-12'/>
         <img src={garlic} className='absolute top-52 left-6 max-sm:-left-8 '/>
         <img src={dot} className='absolute top-64 right-6'/>
-        <img src={chef} className='h-[530px] w-[600px] '/>
+        <img src={chef} className='h-[450px] sm:h-[530px] w-[600px] '/>
         <img src={leaf1}  className='absolute right-12 top-4 max-sm:-right-4'/>
         <img src={leaf}  className='absolute right-0 top-8 max-sm:-right-16'/>
         <img src={cdot1}  className='absolute bottom-24 left-8'/>
         <img src={card}  className='absolute -right-32 -bottom-48 max-sm:-bottom-28'/>
         </div>
         {/* right content  */}
-        <div className='max-w-full lg:w-1/2 max-lg:mt-32 p-10'>
+        <div className='max-w-full lg:w-1/2 max-lg:mt-16 p-10'>
         <div className='mb-4 sm:mb-10 space-y-3 sm:space-y-6'>
             <h2 className='text-lg font-semibold text-primary'>WHAT THEY SAY</h2>
             <h1 className='text-lg sm:text-5xl leading-[1.25] text-para font-secondary font-black'>What Our Customers

@@ -44,9 +44,9 @@ const Footer = () => {
         </div>
 
         <div
-          className="space-y-6"
+          className="space-y-2 sm:space-y-6"
         >
-          <h3 className="text-xl font-semibold mb-4">About</h3>
+          <h3 className="text-xl font-semibold max-sm:mt-4 sm:mb-4">About</h3>
           <ul className="space-y-3">
             <li>
               <a href="#discover" className="text-[#333333] font-medium">
@@ -71,8 +71,8 @@ const Footer = () => {
           </ul>
         </div>
         <div
-         className="space-y-6">
-          <h3 className="text-xl font-semibold mb-4">Company</h3>
+         className="space-y-2 sm:space-y-6">
+          <h3 className="text-xl font-semibold max-sm:mt-4 sm:mb-4">Company</h3>
           <ul className="space-y-3">
             <li>
               <a href="#" className="text-[#333333] font-medium">
@@ -97,8 +97,8 @@ const Footer = () => {
           </ul>
         </div>
         <div 
-        className="space-y-6">
-          <h3 className="text-xl font-semibold mb-4">Support</h3>
+        className="space-y-2 sm:space-y-6">
+          <h3 className="text-xl font-semibold max-sm:mt-4 sm:mb-4">Support</h3>
           <ul className="space-y-3">
             <li className="flex items-center gap-2">
              
@@ -123,8 +123,8 @@ const Footer = () => {
           </ul>
         </div>
         <div 
-        className="space-y-6">
-          <h3 className="text-xl font-semibold mb-4">Get in Touch</h3>
+        className="space-y-2 sm:space-y-6">
+          <h3 className="text-xl font-semibold max-sm:mt-4 sm:mb-4">Get in Touch</h3>
           <ul className="space-y-3">
             <li className="flex items-center gap-2">
              
